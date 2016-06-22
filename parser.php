@@ -42,16 +42,6 @@ class Parser
 		}
 	}
 	
-	private function isValid($line)
-	{
-		if(strlen($line) == 0){//empty line
-			return false;
-		}
-				
-		return true;
-			
-	}
-	
 	private function parseLine($line)
 	{
 		if(strncmp($line, "#", 1)==0){//skip comments
