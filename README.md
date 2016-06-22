@@ -10,5 +10,5 @@ include 'parser.php';
 
 
 $parser = new TobinParser\Parser();
-$parser->parse("log.txt");
+$parser->parse("file.config");
 $host = $parser->getParameter("host");
